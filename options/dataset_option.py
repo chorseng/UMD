@@ -6,10 +6,10 @@ from torchvision import transforms
 class DatasetOption:
     # ========== PLEASE SET YOUR LOCAL DATA DIRECTORY HERE!!! ==========
 
-    dialog_data_root_directory = '/path/to/dialogs/'
-    product_data_root_directory = '/path/to/products/'
-    image_root_directory = '/path/to/images/'
-    dump_root_directory = '/path/to/dump/'
+    dialog_data_root_directory = '/home/chorseng/git/MAGIC/MMD/data/dialogs/'
+    product_data_root_directory = '/home/chorseng/git/MAGIC/MMD/data/knowledge/'
+    image_root_directory = '/home/chorseng/git/MAGIC/MMD/data/images/'
+    dump_root_directory = '/home/chorseng/git/UMD/UMD/dump_dir'
 
     # ========== Raw Data ==========
 
