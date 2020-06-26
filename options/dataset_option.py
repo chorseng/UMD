@@ -6,10 +6,10 @@ from torchvision import transforms
 class DatasetOption:
     # ========== PLEASE SET YOUR LOCAL DATA DIRECTORY HERE!!! ==========
 
-    dialog_data_root_directory = '/home/chorseng/git/MAGIC/MMD/data/dialogs/'
-    product_data_root_directory = '/home/chorseng/git/MAGIC/MMD/data/knowledge/'
-    image_root_directory = '/home/chorseng/git/MAGIC/MMD/data/images/'
-    dump_root_directory = '/home/chorseng/git/UMD/UMD/dump_dir'
+    dialog_data_root_directory = '/home/chorseng/data/'
+    product_data_root_directory = '/home/chorseng/data/knowledge/'
+    image_root_directory = '/home/chorseng/data/images/'
+    dump_root_directory = '/home/chorseng/UMD/UMD/dump_dir'
 
     # ========== Raw Data ==========
 
@@ -25,10 +25,10 @@ class DatasetOption:
                                 join(product_data_root_directory, "IN_jabong", "public_jsons")]
 
     # a map from url to image file name
-    url2img = 'data/url2img.txt'
+    url2img = '/home/chorseng/data/url2img.txt'
 
     # extracted GloVe vectors, from: http://nlp.stanford.edu/data/glove.840B.300d.zip
-    glove_file = 'data/glove.txt'
+    glove_file = '/home/chorseng/data/glove.txt'
 
     # raw dialog data
     train_pkl = join(dump_root_directory, "train_data.pkl")
