@@ -5,7 +5,7 @@ from torchvision import transforms
 
 class DatasetOption:
     # ========== PLEASE SET YOUR LOCAL DATA DIRECTORY HERE!!! ==========
-
+    #TEST
     dialog_data_root_directory = '/home/chorseng/data/dialogs/'
     product_data_root_directory = '/home/chorseng/data/raw_catlog/'
     image_root_directory = '/home/chorseng/data/images/'
